@@ -1,0 +1,49 @@
+{
+  "banners": [
+    {
+      "title": "全平台強勢公測！",
+      "image": "https://via.placeholder.com/1200x400/111827/3B82F6?text=Main+Banner+1"
+    },
+    {
+      "title": "全新版本【暗黑降臨】開啟",
+      "image": "https://via.placeholder.com/1200x400/1e1b4b/818cf8?text=Main+Banner+2"
+    }
+  ],
+  "news": [
+    {
+      "category": "活動",
+      "title": "【限時活動】登入即送限量高級裝備！",
+      "date": "2026-09-15"
+    },
+    {
+      "category": "系統",
+      "title": "9月16日 定期維護更新公告",
+      "date": "2026-09-14"
+    },
+    {
+      "category": "新聞",
+      "title": "全新職業「影武者」技能全解析",
+      "date": "2026-09-10"
+    }
+  ],
+  "games": [
+    {
+      "name": "英雄傳說 Online",
+      "type": "MMORPG",
+      "tag": "熱門",
+      "img": "https://via.placeholder.com/200x250/312e81/ffffff?text=Game+1"
+    },
+    {
+      "name": "星際風暴",
+      "type": "科幻射擊",
+      "tag": "新品",
+      "img": "https://via.placeholder.com/200x250/831843/ffffff?text=Game+2"
+    },
+    {
+      "name": "魔域守護者",
+      "type": "策略卡牌",
+      "tag": "推薦",
+      "img": "https://via.placeholder.com/200x250/14532d/ffffff?text=Game+3"
+    }
+  ]
+}

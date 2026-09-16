@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲入口網站 - 參考 CIBMALL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. 導覽列 -->
+    <header class="navbar">
+        <div class="logo">GAME PORTAL</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">首頁</a></li>
+                <li><a href="#games">遊戲大廳</a></li>
+                <li><a href="#news">新聞公告</a></li>
+                <li><a href="#">儲值中心</a></li>
+                <li><a href="#">客服中心</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <button class="btn-login">登入</button>
+            <button class="btn-register">註冊</button>
+        </div>
+    </header>
+
+    <!-- 2. Hero 輪播/宣傳區 -->
+    <section class="hero-section">
+        <div class="banner-container" id="banner-box">
+            <!-- JS 動態渲染 Banner -->
+        </div>
+    </section>
+
+    <!-- 3. 主體內容區域 -->
+    <main class="container">
+        
+        <!-- 左側：新聞公告 -->
+        <section class="news-section" id="news">
+            <div class="section-header">
+                <h2>新聞公告</h2>
+                <a href="#" class="more-link">更多 ></a>
+            </div>
+            <ul class="news-list" id="news-list">
+                <!-- JS 動態渲染新聞 -->
+            </ul>
+        </section>
+
+        <!-- 右側：快捷下載/會員面板 -->
+        <aside class="sidebar">
+            <div class="quick-download">
+                <h3>快速下載客戶端</h3>
+                <button class="btn-download-main">PC 官方版下載</button>
+                <div class="qr-code">
+                    <img src="https://via.placeholder.com/120/ffffff/000000?text=QR+Code" alt="QR Code">
+                    <p>掃描下載 Mobile APK</p>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- 4. 熱門遊戲展示區 -->
+    <section class="games-section container" id="games">
+        <div class="section-header">
+            <h2>熱門遊戲</h2>
+        </div>
+        <div class="games-grid" id="games-grid">
+            <!-- JS 動態渲染遊戲卡片 -->
+        </div>
+    </section>
+
+    <!-- 5. 頁尾 Footer -->
+    <footer>
+        <p>© 2026 GAME PORTAL All Rights Reserved.</p>
+        <p>健康遊戲忠告：抵制不良遊戲，拒絕盜版遊戲。注意自我保護，謹防受騙上當。</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
